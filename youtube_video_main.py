@@ -3,7 +3,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()   # 🔥 THIS WAS MISSING
+load_dotenv()   
 
 
 
@@ -43,7 +43,7 @@ api = YouTubeTranscriptApi()
 try:
     transcript_list = api.fetch(video_id, languages=['en'])
 
-    # ✅ Timestamp-aware transcript storage
+    #  Timestamp-aware transcript storage
     transcript_with_timestamps = []
 
     for chunk in transcript_list:
