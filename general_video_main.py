@@ -27,7 +27,7 @@ import shutil
 if os.path.exists("faiss_index"):
     shutil.rmtree("faiss_index")
 
-print("✅ Old video data cleared")
+print(" Old video data cleared")
 
 import subprocess
 from faster_whisper import WhisperModel
