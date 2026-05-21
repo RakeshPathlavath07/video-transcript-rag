@@ -5,3 +5,7 @@ langchain-text-splitters
 faiss-cpu
 python-dotenv
 huggingface-hub
+streamlit>=1.28
+transformers
+faster-whisper
+ffmpeg-python
